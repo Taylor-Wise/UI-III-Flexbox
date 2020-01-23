@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 80%;
+	/* border: 2px solid black; */
+	margin: auto;
+}
+
+nav{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navigation a {
+	margin: 3%;
+}
+
+.logo{
+	padding-left: 8%;
+}
+
+header{
+	width: 100%;
+	font-size: 90px;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+
+	/* border:2px solid black; */
+}
+
+div h1{
+		text-transform: uppercase;
+		text-align: center;
+		/* padding: 5%;
+		margin: 1% 5%; */
+		border: 1px solid purple;
+	}
+
+button{
+	padding: 1% 6% 1% 6%;
+	border: 1px solid black;
+	margin: 0%;
+}
+
+.header-left{
+	box-sizing: border-box;
+	border:2px solid hotpink;
+	text-align: center;
+	padding-top: 5%;
+}
+
+
+.headerimg {
+		width:45;
+		padding-top: 4%;
+		padding-bottom: 5%;
+		margin:1%;
+		/* border: 2px solid purple; */
+		text-align: center;
+		vertical-align: top;
+
+	} 
+
+.box-1{
+	/* border: 2px solid red; */
+	margin: 1%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.features{
+	/* border: 2px solid black; */
+	width: 46%;
+	margin: 1%;
+
+}
+
+.about{
+	/* border: 2px solid black; */
+	width: 46%;
+	margin: 1%;
+}
+
+.box-2{
+	/* border: 2px solid purple; */
+	margin: 1%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.services{
+	/* border: 2px solid black; */
+	width: 31%;
+	margin: 1%;
+}
+
+.product{
+	/* border: 2px solid black; */
+	width: 31%;
+	margin: 1%;
+
+}
+
+.vision{
+	/* border: 2px solid black; */
+	width: 31%;
+	margin: 1%;
+}
+
+
+
+.middle-img{
+	width: 100%;
+	margin: auto;
+
+}
+
+h2{
+	font-size: 18px;
+}
+
+address{
+	line-height: 30px;
+	margin: 2%;
+}
+
+footer{
+	padding:5%;
+	text-align: center;
+}
